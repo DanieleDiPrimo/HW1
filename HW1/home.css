@@ -1,0 +1,209 @@
+body{
+    margin: 0; 
+}
+  
+#sfondo{
+    background-image: url(https://images.everyeye.it/img-articoli/il-futuro-videogiochi-insostenibile-leggerezza-digitale-speciale-v9-43666-1280x16.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    position: relative; 
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    z-index: 0; 
+    margin-top: 0px;
+}
+   
+.titolo{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    font-family: 'Press Start 2P', cursive !important; 
+    font-size: 20px;
+    color:darkorchid;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:indigo;
+}
+
+#username{
+    position: absolute;
+    left: 10px;
+    font-size: 15px;
+    font-family: 'Press Start 2P', cursive;
+}
+
+#username a{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#username a:hover{
+    color: red;
+}
+
+#logout{
+    position: absolute;
+    right: 10px;
+}
+
+#logout a{
+    color: white; 
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#logout a:hover{
+    border: solid 2px black;
+    border-radius: 5px;
+    color: red;
+}
+
+
+.menu{
+    list-style: none;
+    margin: 0; 
+}
+  
+.menu a{
+    padding: 15px 30px;
+    display:block;
+    text-decoration: none;  
+    color: white;
+      
+}
+  
+.menu a:hover{
+    color:red;
+}
+  
+
+.menu li{
+    display: inline-block;
+    text-transform: uppercase;
+    font-style: 12px;
+
+}
+
+
+#overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.3); 
+    z-index: -1;
+}
+
+.gameform, .cerca_profilo, .form_nickname{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.info{
+    padding-left: 0px;
+}
+
+.info li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    margin-bottom: 20px;
+    border: solid 3px black;
+    margin-left: 0px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    font-family: 'Press Start 2P', cursive;
+}
+
+#gamenotfound{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#conteiner_img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gameError{
+    color: red;
+}
+
+.postview{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box_post{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px;
+}
+
+.box_titolo{
+    display: flex;
+}
+
+.box_titolo p{  
+    font-size: 18px;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.box_img{
+    height: auto;
+    width: auto;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: darkorchid;
+    height: 40px;
+    padding: 20px;
+    margin-top:30px;
+}
+
+footer span{
+    font-size: 19px;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bannOK{
+    color: green; 
+    align-items: center;
+}
+
+.bannER{
+    color:red; 
+    align-items: center;
+}
+
+.richiesta{
+    text-decoration: none; 
+}
+
